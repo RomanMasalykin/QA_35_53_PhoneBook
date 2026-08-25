@@ -1,7 +1,7 @@
 from pages.login_page import LoginPage
 
-VALID_EMAIL = "masalykinroman1@gmail.com"
-VALID_PASSWORD = "Roman123$"
+VALID_EMAIL = "romanromantest1@gmail.com"
+VALID_PASSWORD = "RomanRomanTest1$"
 INVALID_EMAIL = "masalykin@gmal.com"
 INVALID_PASSWORD = "roman124$"
 
