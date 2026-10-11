@@ -16,4 +16,9 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Run UI tests (Chrome)
+        env:
+          BASE_URL: ${{ secrets.BASE_URL }}
+          EXITING_EMAIL: ${{ secrets.EXITING_EMAIL }}
+          EXITING_USER_PASSWORD: ${{ secrets.EXITING_USER_PASSWORD }}
       - run: pytes t tests/ test_login.py --browser=chrome --headless
