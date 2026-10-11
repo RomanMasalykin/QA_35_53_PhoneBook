@@ -21,4 +21,4 @@ jobs:
           BASE_URL: ${{ secrets.BASE_URL }}
           EXITING_EMAIL: ${{ secrets.EXITING_EMAIL }}
           EXITING_USER_PASSWORD: ${{ secrets.EXITING_USER_PASSWORD }}
-      - run: pytes t tests/ test_login.py --browser=chrome --headless
+        run: pytes t tests/ test_login.py --browser=chrome --headless
